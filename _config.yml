@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: new-relic.api.streamdata.gallery
+title: Streamdata Gallery New Relic
+url: new-relic.streamdata.gallery
 tag: New Relic
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: new-relic
 github_branch: master
 collections:
