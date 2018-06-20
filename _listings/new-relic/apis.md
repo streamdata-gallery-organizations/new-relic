@@ -1,14 +1,14 @@
 ---
 name: New Relic
 x-slug: new-relic
-description: "New Relic\u2019s digital intelligence platform lets developers, ops,
-  and tech teams measure and monitor the performance of their applications and infrastructure."
+description: New Relic???s digital intelligence platform lets developers, ops, and
+  tech teams measure and monitor the performance of their applications and infrastructure.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
 x-kinRank: "8"
 x-alexaRank: "10322"
 tags: New Relic
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Alerts, Plugins, Conditions, Policies, Policy, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionspoliciespolicy-idformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionspoliciespolicy-id-format-post-openapi.md
 - name: New Relic Put Alerts Plugins Conditions  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to update Plugins conditions for your
@@ -46,7 +46,7 @@ apis:
   tags: Alerts, Plugins, Conditions, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionsid-format-put-openapi.md
 - name: New Relic Delete Alerts Plugins Conditions Condition  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to delete Plugins conditions associated
@@ -58,7 +58,7 @@ apis:
   tags: Alerts, Plugins, Conditions, Condition, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionscondition-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionscondition-id-format-delete-openapi.md
 - name: New Relic Get Alerts Plugins Conditions. Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to list the Plugins conditions for your
@@ -69,7 +69,7 @@ apis:
   tags: Alerts, Plugins, Conditions., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-plugins-conditions-format-get-openapi.md
 - name: New Relic Put Alerts Policy Channels. Format
   x-api-slug: new-relic
   description: "This API endpoint updates policy/channel associations.\n\nNote: Admin
@@ -81,9 +81,9 @@ apis:
   tags: Alerts, Policy, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channelsformat-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channels-format-put-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channelsformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channels-format-put-openapi.md
 - name: New Relic Delete Alerts Policy Channels. Format
   x-api-slug: new-relic
   description: "This API endpoint deletes Alerts policy/channel associations.\n\nNote:
@@ -95,9 +95,9 @@ apis:
   tags: Alerts, Policy, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channelsformat-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channels-format-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channelsformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-policy-channels-format-delete-openapi.md
 - name: New Relic Get Alerts Channels. Format
   x-api-slug: new-relic
   description: |-
@@ -112,9 +112,9 @@ apis:
   tags: Alerts, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channelsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channels-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channelsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channels-format-get-openapi.md
 - name: New Relic Add Alerts Channels. Format
   x-api-slug: new-relic
   description: "This API endpoint works with new Alerts on alerts.newrelic.com.\n\nIt
@@ -144,7 +144,7 @@ apis:
   tags: Alerts, Channels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channelsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channels-format-post-openapi.md
 - name: New Relic Delete Alerts Channels Channel  . Format
   x-api-slug: new-relic
   description: "This API endpoint deletes Alerts notification channels.\n\nNote: Admin
@@ -156,7 +156,7 @@ apis:
   tags: Alerts, Channels, Channel, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channelschannel-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-channelschannel-id-format-delete-openapi.md
 - name: New Relic Add Alerts Conditions Policies Policy  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to create conditions for your alert policies.\n\nNote:
@@ -187,7 +187,7 @@ apis:
   tags: Alerts, Conditions, Policies, Policy, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionspoliciespolicy-idformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionspoliciespolicy-id-format-post-openapi.md
 - name: New Relic Put Alerts Conditions  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to update conditions for your alert policies.\n\nNote:
@@ -200,7 +200,7 @@ apis:
   tags: Alerts, Conditions, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionsid-format-put-openapi.md
 - name: New Relic Delete Alerts Conditions Condition  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to delete conditions associated with
@@ -212,7 +212,7 @@ apis:
   tags: Alerts, Conditions, Condition, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionscondition-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionscondition-id-format-delete-openapi.md
 - name: New Relic Get Alerts Conditions. Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to list the conditions for your alert
@@ -223,7 +223,7 @@ apis:
   tags: Alerts, Conditions., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-conditions-format-get-openapi.md
 - name: New Relic Get Alerts Entity Conditions Entity  . Format
   x-api-slug: new-relic
   description: |-
@@ -248,7 +248,7 @@ apis:
   tags: Alerts, Entity, Conditions, Entity, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-idformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-id-format-get-openapi.md
 - name: New Relic Put Alerts Entity Conditions Entity  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to add an entity to a specified Alerts
@@ -260,7 +260,7 @@ apis:
   tags: Alerts, Entity, Conditions, Entity, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-idformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-id-format-put-openapi.md
 - name: New Relic Delete Alerts Entity Conditions Entity  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to disassociate an entity with a specified
@@ -272,7 +272,7 @@ apis:
   tags: Alerts, Entity, Conditions, Entity, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-entity-conditionsentity-id-format-delete-openapi.md
 - name: New Relic Get Alerts Events. Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to list the alert events for your account.\n\nAlerts
@@ -292,7 +292,7 @@ apis:
   tags: Alerts, Events., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-eventsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-events-format-get-openapi.md
 - name: New Relic Add Alerts External Service Conditions Policies Policy  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to create external service conditions
@@ -318,7 +318,7 @@ apis:
   tags: Alerts, External, Service, Conditions, Policies, Policy, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionspoliciespolicy-idformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionspoliciespolicy-id-format-post-openapi.md
 - name: New Relic Put Alerts External Service Conditions  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to update external service conditions
@@ -332,7 +332,7 @@ apis:
   tags: Alerts, External, Service, Conditions, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionsid-format-put-openapi.md
 - name: New Relic Delete Alerts External Service Conditions Condition  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to delete external service conditions
@@ -344,7 +344,7 @@ apis:
   tags: Alerts, External, Service, Conditions, Condition, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionscondition-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionscondition-id-format-delete-openapi.md
 - name: New Relic Get Alerts External Service Conditions. Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to list the external service conditions
@@ -356,7 +356,7 @@ apis:
   tags: Alerts, External, Service, Conditions., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-external-service-conditions-format-get-openapi.md
 - name: New Relic Get Alerts Incents. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of the Incidents associated with
@@ -368,7 +368,7 @@ apis:
   tags: Alerts, Incents., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-incidentsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-incidents-format-get-openapi.md
 - name: New Relic Add Alerts Synthetics Conditions Policies Policy  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to create Synthetics conditions for your
@@ -384,7 +384,7 @@ apis:
   tags: Alerts, Synthetics, Conditions, Policies, Policy, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionspoliciespolicy-idformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionspoliciespolicy-id-format-post-openapi.md
 - name: New Relic Put Alerts Synthetics Conditions  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to update Synthetics conditions for your
@@ -397,7 +397,7 @@ apis:
   tags: Alerts, Synthetics, Conditions, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionsid-format-put-openapi.md
 - name: New Relic Delete Alerts Synthetics Conditions Condition  . Format
   x-api-slug: new-relic
   description: "This API endpoint allows you to delete Synthetics conditions associated
@@ -409,7 +409,7 @@ apis:
   tags: Alerts, Synthetics, Conditions, Condition, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionscondition-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionscondition-id-format-delete-openapi.md
 - name: New Relic Get Alerts Synthetics Conditions. Format
   x-api-slug: new-relic
   description: |-
@@ -423,7 +423,7 @@ apis:
   tags: Alerts, Synthetics, Conditions., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-synthetics-conditions-format-get-openapi.md
 - name: New Relic Get Alerts Violations. Format
   x-api-slug: new-relic
   description: "This API endpoint works with new Alerts on alerts.newrelic.com.\n\nIt
@@ -435,7 +435,7 @@ apis:
   tags: Alerts, Violations., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-violationsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/alerts-violations-format-get-openapi.md
 - name: New Relic Get Applications Application  Deployments. Format
   x-api-slug: new-relic
   description: |-
@@ -448,9 +448,9 @@ apis:
   tags: Applications, Application, , Deployments., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeploymentsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeployments-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeploymentsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeployments-format-get-openapi.md
 - name: New Relic Add Applications Application  Deployments. Format
   x-api-slug: new-relic
   description: "This API endpoint creates a deployment record for a given application.\nDeployment
@@ -464,7 +464,7 @@ apis:
   tags: Applications, Application, , Deployments., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeploymentsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeployments-format-post-openapi.md
 - name: New Relic Delete Applications Application  Deployments  . Format
   x-api-slug: new-relic
   description: "This API endpoint deletes the specified deployment record.\n\nNote:
@@ -475,7 +475,7 @@ apis:
   tags: Applications, Application, , Deployments, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeploymentsidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-iddeploymentsid-format-delete-openapi.md
 - name: New Relic Get Applications Application  Hosts. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a \npaginated list of hosts associated with
@@ -489,7 +489,7 @@ apis:
   tags: Applications, Application, , Hosts., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhosts-format-get-openapi.md
 - name: New Relic Get Applications Application  Hosts  . Format
   x-api-slug: new-relic
   description: |-
@@ -503,7 +503,7 @@ apis:
   tags: Applications, Application, , Hosts, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostsid-format-get-openapi.md
 - name: New Relic Get Applications Application  Hosts Host  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -518,7 +518,7 @@ apis:
   tags: Applications, Application, , Hosts, Host, , Metrics., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostshost-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostshost-idmetrics-format-get-openapi.md
 - name: New Relic Get Applications Application  Hosts Host  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -535,7 +535,7 @@ apis:
   tags: Applications, Application, , Hosts, Host, , Metrics, Data., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostshost-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idhostshost-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Applications Application  Instances. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a \npaginated list of instances associated
@@ -549,7 +549,7 @@ apis:
   tags: Applications, Application, , Instances., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstances-format-get-openapi.md
 - name: New Relic Get Applications Application  Instances  . Format
   x-api-slug: new-relic
   description: |-
@@ -563,7 +563,7 @@ apis:
   tags: Applications, Application, , Instances, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesid-format-get-openapi.md
 - name: New Relic Get Applications Application  Instances Instance  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -578,7 +578,7 @@ apis:
   tags: Applications, Application, , Instances, Instance, , Metrics., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesinstance-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesinstance-idmetrics-format-get-openapi.md
 - name: New Relic Get Applications Application  Instances Instance  Metrics Data.
     Format
   x-api-slug: new-relic
@@ -596,7 +596,7 @@ apis:
   tags: Applications, Application, , Instances, Instance, , Metrics, Data., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesinstance-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idinstancesinstance-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Applications. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a paginated\nlist of the Applications associated
@@ -610,7 +610,7 @@ apis:
   tags: Applications., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applications-format-get-openapi.md
 - name: New Relic Get Applications  . Format
   x-api-slug: new-relic
   description: |-
@@ -624,7 +624,7 @@ apis:
   tags: Applications, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsid-format-get-openapi.md
 - name: New Relic Put Applications  . Format
   x-api-slug: new-relic
   description: |-
@@ -642,7 +642,7 @@ apis:
   tags: Applications, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsid-format-put-openapi.md
 - name: New Relic Delete Applications  . Format
   x-api-slug: new-relic
   description: |-
@@ -656,7 +656,7 @@ apis:
   tags: Applications, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsid-format-delete-openapi.md
 - name: New Relic Get Applications Application  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -671,7 +671,7 @@ apis:
   tags: Applications, Application, , Metrics., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idmetrics-format-get-openapi.md
 - name: New Relic Get Applications Application  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -688,7 +688,7 @@ apis:
   tags: Applications, Application, , Metrics, Data., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/applicationsapplication-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Browser Applications. Format
   x-api-slug: new-relic
   description: |-
@@ -701,7 +701,7 @@ apis:
   tags: Browser, Applications., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/browser-applicationsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/browser-applications-format-get-openapi.md
 - name: New Relic Add Browser Applications. Format
   x-api-slug: new-relic
   description: This API endpoint allows you to create a standalone Browser Application.
@@ -711,7 +711,7 @@ apis:
   tags: Browser, Applications., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/browser-applicationsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/browser-applications-format-post-openapi.md
 - name: New Relic Get Components. Format
   x-api-slug: new-relic
   description: |-
@@ -727,9 +727,9 @@ apis:
   tags: Components., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/components-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/components-format-get-openapi.md
 - name: New Relic Get Components  . Format
   x-api-slug: new-relic
   description: |-
@@ -742,9 +742,9 @@ apis:
   tags: Components, , ., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentsid-format-get-openapi.md
 - name: New Relic Get Components Component  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -759,9 +759,9 @@ apis:
   tags: Components, Component, , Metrics., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetrics-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetrics-format-get-openapi.md
 - name: New Relic Get Components Component  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -778,9 +778,9 @@ apis:
   tags: Components, Component, , Metrics, Data., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsdataformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsdata-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/componentscomponent-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Key Transactions. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a paginated \nlist of the key transactions
@@ -793,9 +793,9 @@ apis:
   tags: Key, Transactions., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactions-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactions-format-get-openapi.md
 - name: New Relic Get Key Transactions  . Format
   x-api-slug: new-relic
   description: "This endpoint returns a single key transaction, identified by ID.
@@ -807,9 +807,9 @@ apis:
   tags: Key, Transactions, , ., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/key-transactionsid-format-get-openapi.md
 - name: New Relic Get Labels. Format
   x-api-slug: new-relic
   description: This API endpoint returns a paginated list of the labels available
@@ -820,7 +820,7 @@ apis:
   tags: Labels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labelsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labels-format-get-openapi.md
 - name: New Relic Put Labels. Format
   x-api-slug: new-relic
   description: "This API endpoint will create a new label with the provided category
@@ -834,7 +834,7 @@ apis:
   tags: Labels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labelsformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labels-format-put-openapi.md
 - name: New Relic Delete Labels Key . Format
   x-api-slug: new-relic
   description: |-
@@ -847,7 +847,7 @@ apis:
   tags: Labels, Key, ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labelskeyformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/labelskey-format-delete-openapi.md
 - name: New Relic Get Mobile Applications. Format
   x-api-slug: new-relic
   description: |-
@@ -860,7 +860,7 @@ apis:
   tags: Mobile, Applications., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applications-format-get-openapi.md
 - name: New Relic Get Mobile Applications  . Format
   x-api-slug: new-relic
   description: This API endpoint returns a single Mobile Application, identified by
@@ -871,7 +871,7 @@ apis:
   tags: Mobile, Applications, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsid-format-get-openapi.md
 - name: New Relic Get Mobile Applications Mobile Application  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -886,7 +886,7 @@ apis:
   tags: Mobile, Applications, Mobile, Application, , Metrics., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsmobile-application-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsmobile-application-idmetrics-format-get-openapi.md
 - name: New Relic Get Mobile Applications Mobile Application  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -903,7 +903,7 @@ apis:
   tags: Mobile, Applications, Mobile, Application, , Metrics, Data., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsmobile-application-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/mobile-applicationsmobile-application-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Notification Channels. Format
   x-api-slug: new-relic
   description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
@@ -916,7 +916,7 @@ apis:
   tags: Notification, Channels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/notification-channelsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/notification-channels-format-get-openapi.md
 - name: New Relic Get Notification Channels  . Format
   x-api-slug: new-relic
   description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
@@ -927,7 +927,7 @@ apis:
   tags: Notification, Channels, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/notification-channelsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/notification-channelsid-format-get-openapi.md
 - name: New Relic Get Plugins. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of the Plugins associated with your
@@ -939,7 +939,7 @@ apis:
   tags: Plugins., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/pluginsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/plugins-format-get-openapi.md
 - name: New Relic Get Plugins  . Format
   x-api-slug: new-relic
   description: This API endpoint returns a single plugin, identified by its ID.
@@ -949,7 +949,7 @@ apis:
   tags: Plugins, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/pluginsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/pluginsid-format-get-openapi.md
 - name: New Relic Get Servers. Format
   x-api-slug: new-relic
   description: |-
@@ -967,7 +967,7 @@ apis:
   tags: Servers., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/servers-format-get-openapi.md
 - name: New Relic Get Servers  . Format
   x-api-slug: new-relic
   description: "This API endpoint returns a single Server, identified by ID. The time
@@ -979,7 +979,7 @@ apis:
   tags: Servers, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversid-format-get-openapi.md
 - name: New Relic Put Servers  . Format
   x-api-slug: new-relic
   description: |-
@@ -993,7 +993,7 @@ apis:
   tags: Servers, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversid-format-put-openapi.md
 - name: New Relic Delete Servers  . Format
   x-api-slug: new-relic
   description: |-
@@ -1007,7 +1007,7 @@ apis:
   tags: Servers, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversid-format-delete-openapi.md
 - name: New Relic Get Servers Server  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -1022,7 +1022,7 @@ apis:
   tags: Servers, Server, , Metrics., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversserver-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversserver-idmetrics-format-get-openapi.md
 - name: New Relic Get Servers Server  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -1039,7 +1039,7 @@ apis:
   tags: Servers, Server, , Metrics, Data., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversserver-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/serversserver-idmetricsdata-format-get-openapi.md
 - name: New Relic Get Usages Product . Format
   x-api-slug: new-relic
   description: |-
@@ -1052,7 +1052,7 @@ apis:
   tags: Usages, Product, ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usagesproductformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usagesproduct-format-get-openapi.md
 - name: New Relic Get Users. Format
   x-api-slug: new-relic
   description: |-
@@ -1065,7 +1065,7 @@ apis:
   tags: Users., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usersformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/users-format-get-openapi.md
 - name: New Relic Get Users  . Format
   x-api-slug: new-relic
   description: This API endpoint returns a single user, identified by ID.
@@ -1075,7 +1075,7 @@ apis:
   tags: Users, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usersidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usersid-format-get-openapi.md
 - name: New Relic Add Users  Reset Password. Format
   x-api-slug: new-relic
   description: This API endpoints reset the user password, identified by ID
@@ -1085,11 +1085,11 @@ apis:
   tags: Users, , Reset, Password., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usersidreset-passwordformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/usersidreset-password-format-post-openapi.md
 - name: New Relic
   x-api-slug: new-relic
-  description: "New Relic\u2019s digital intelligence platform lets developers, ops,
-    and tech teams measure and monitor the performance of their applications and infrastructure."
+  description: New Relic???s digital intelligence platform lets developers, ops, and
+    tech teams measure and monitor the performance of their applications and infrastructure.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2/

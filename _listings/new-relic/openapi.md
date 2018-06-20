@@ -31,7 +31,7 @@ paths:
         all, any.\n\nplugin[id]: The ID of the plugin.\n\nplugin[guid]: The GUID of
         the plugin."
       operationId: postAlertsPluginsConditionsPoliciesPolicy.Format
-      x-api-path-slug: alerts-plugins-conditionspoliciespolicy-idformat-post
+      x-api-path-slug: alerts-plugins-conditionspoliciespolicy-id-format-post
       parameters:
       - in: body
         name: plugins_condition
@@ -62,7 +62,7 @@ paths:
         Alerts Plugins Conditions &gt; Create for an explanation of the field values
         ued in this command or the online document on\nupdating conditions for plugins."
       operationId: putAlertsPluginsConditions.Format
-      x-api-path-slug: alerts-plugins-conditionsidformat-put
+      x-api-path-slug: alerts-plugins-conditionsid-format-put
       parameters:
       - in: path
         name: id
@@ -90,7 +90,7 @@ paths:
         with your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
         our documentation for a discussion on deleting Plugins conditions."
       operationId: deleteAlertsPluginsConditionsCondition.Format
-      x-api-path-slug: alerts-plugins-conditionscondition-idformat-delete
+      x-api-path-slug: alerts-plugins-conditionscondition-id-format-delete
       parameters:
       - in: path
         name: condition_id
@@ -113,7 +113,7 @@ paths:
       description: "This API endpoint allows you to list the Plugins conditions for
         your alert policy.\n\nSee our documentation for a discussion on \noutput pagination."
       operationId: getAlertsPluginsConditions.Format
-      x-api-path-slug: alerts-plugins-conditionsformat-get
+      x-api-path-slug: alerts-plugins-conditions-format-get
       parameters:
       - in: query
         name: page
@@ -138,7 +138,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on updating notification channels with policies."
       operationId: putAlertsPolicyChannels.Format
-      x-api-path-slug: alerts-policy-channelsformat-put
+      x-api-path-slug: alerts-policy-channels-format-put
       parameters:
       - in: query
         name: channel_ids
@@ -162,7 +162,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on deleting notification channels with policies."
       operationId: deleteAlertsPolicyChannels.Format
-      x-api-path-slug: alerts-policy-channelsformat-delete
+      x-api-path-slug: alerts-policy-channels-format-delete
       parameters:
       - in: query
         name: channel_id
@@ -190,7 +190,7 @@ paths:
 
         See our documentation for a discussion on listing notification channels.
       operationId: getAlertsChannels.Format
-      x-api-path-slug: alerts-channelsformat-get
+      x-api-path-slug: alerts-channels-format-get
       parameters:
       - in: query
         name: page
@@ -228,7 +228,7 @@ paths:
         {\"account_id\": 1, \"account_name\": \"account name\" },\n\"headers\": {\"header1\":
         \"test\", \"header2\": \"test\"}\n\n\n    }"
       operationId: postAlertsChannels.Format
-      x-api-path-slug: alerts-channelsformat-post
+      x-api-path-slug: alerts-channels-format-post
       parameters:
       - in: body
         name: channel
@@ -253,7 +253,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on deleting notification channels."
       operationId: deleteAlertsChannelsChannel.Format
-      x-api-path-slug: alerts-channelschannel-idformat-delete
+      x-api-path-slug: alerts-channelschannel-id-format-delete
       parameters:
       - in: path
         name: channel_id
@@ -296,7 +296,7 @@ paths:
         all, any.\n\nuser_defined[metric]: A custom metric to be evaluated.\n\nuser_defined[value_function]:
         average, min, max, total, sample_size."
       operationId: postAlertsConditionsPoliciesPolicy.Format
-      x-api-path-slug: alerts-conditionspoliciespolicy-idformat-post
+      x-api-path-slug: alerts-conditionspoliciespolicy-id-format-post
       parameters:
       - in: body
         name: condition
@@ -326,7 +326,7 @@ paths:
         &gt; Create for an explanation of the field values or the online \ndocumentation
         on updating conditions for policies."
       operationId: putAlertsConditions.Format
-      x-api-path-slug: alerts-conditionsidformat-put
+      x-api-path-slug: alerts-conditionsid-format-put
       parameters:
       - in: body
         name: condition
@@ -353,7 +353,7 @@ paths:
         your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
         our documentation for a discussion on deleting conditions."
       operationId: deleteAlertsConditionsCondition.Format
-      x-api-path-slug: alerts-conditionscondition-idformat-delete
+      x-api-path-slug: alerts-conditionscondition-id-format-delete
       parameters:
       - in: path
         name: condition_id
@@ -375,7 +375,7 @@ paths:
       description: "This API endpoint allows you to list the conditions for your alert
         policy.\n\nSee our documentation for a discussion on \noutput pagination."
       operationId: getAlertsConditions.Format
-      x-api-path-slug: alerts-conditionsformat-get
+      x-api-path-slug: alerts-conditions-format-get
       parameters:
       - in: query
         name: page
@@ -412,7 +412,7 @@ paths:
 
         Plugin
       operationId: getAlertsEntityConditionsEntity.Format
-      x-api-path-slug: alerts-entity-conditionsentity-idformat-get
+      x-api-path-slug: alerts-entity-conditionsentity-id-format-get
       parameters:
       - in: path
         name: entity_id
@@ -439,7 +439,7 @@ paths:
         condition.\n\nNote: Admin User\u2019s API Key is required.\n \n  Entity type
         options (Synthetics is not yet supported):\n\nBrowserApplication\n\nApplication\n\nMobileApplication\n\nServer\n\nKeyTransaction\n\nPlugin"
       operationId: putAlertsEntityConditionsEntity.Format
-      x-api-path-slug: alerts-entity-conditionsentity-idformat-put
+      x-api-path-slug: alerts-entity-conditionsentity-id-format-put
       parameters:
       - in: query
         name: condition_id
@@ -470,7 +470,7 @@ paths:
         specified Alerts condition.\n\nNote: Admin User\u2019s API Key is required.\n\nEntity
         type options (Synthetics is not yet supported):\n\nBrowserApplication\n\nApplication\n\nMobileApplication\n\nServer\n\nKeyTransaction\n\nPlugin"
       operationId: deleteAlertsEntityConditionsEntity.Format
-      x-api-path-slug: alerts-entity-conditionsentity-idformat-delete
+      x-api-path-slug: alerts-entity-conditionsentity-id-format-delete
       parameters:
       - in: query
         name: condition_id
@@ -510,7 +510,7 @@ paths:
         representing the PLUGIN itself, and entity IDs for all instances of that PLUGIN
         type.\n\nSee our documentation for a discussion on \noutput pagination."
       operationId: getAlertsEvents.Format
-      x-api-path-slug: alerts-eventsformat-get
+      x-api-path-slug: alerts-events-format-get
       parameters:
       - in: query
         name: filter[entity_group_id]
@@ -564,7 +564,7 @@ paths:
         critical, warning.\n\nterms[threshold]: Must be 0 or greater.\n\nterms[time_function]:
         all, any."
       operationId: postAlertsExternalServiceConditionsPoliciesPolicy.Format
-      x-api-path-slug: alerts-external-service-conditionspoliciespolicy-idformat-post
+      x-api-path-slug: alerts-external-service-conditionspoliciespolicy-id-format-post
       parameters:
       - in: body
         name: external_service_condition
@@ -597,7 +597,7 @@ paths:
         values used in this command or the online documentation on\nupdating conditions
         for external services."
       operationId: putAlertsExternalServiceConditions.Format
-      x-api-path-slug: alerts-external-service-conditionsidformat-put
+      x-api-path-slug: alerts-external-service-conditionsid-format-put
       parameters:
       - in: body
         name: external_service_condition
@@ -626,7 +626,7 @@ paths:
         associated with your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
         our documentation for a discussion on deleting External services conditions."
       operationId: deleteAlertsExternalServiceConditionsCondition.Format
-      x-api-path-slug: alerts-external-service-conditionscondition-idformat-delete
+      x-api-path-slug: alerts-external-service-conditionscondition-id-format-delete
       parameters:
       - in: path
         name: condition_id
@@ -651,7 +651,7 @@ paths:
         for your alert policy.\n\nSee our documentation for a discussion on \n output
         pagination."
       operationId: getAlertsExternalServiceConditions.Format
-      x-api-path-slug: alerts-external-service-conditionsformat-get
+      x-api-path-slug: alerts-external-service-conditions-format-get
       parameters:
       - in: query
         name: page
@@ -677,7 +677,7 @@ paths:
         your New Relic account.\n\nSee our documentation for a discussion on listing
         incidents \nand output pagination."
       operationId: getAlertsIncents.Format
-      x-api-path-slug: alerts-incidentsformat-get
+      x-api-path-slug: alerts-incidents-format-get
       parameters:
       - in: query
         name: page
@@ -702,7 +702,7 @@ paths:
         display in notifications (optional).\n\nenabled: The status of your condition
         (optional)."
       operationId: postAlertsSyntheticsConditionsPoliciesPolicy.Format
-      x-api-path-slug: alerts-synthetics-conditionspoliciespolicy-idformat-post
+      x-api-path-slug: alerts-synthetics-conditionspoliciespolicy-id-format-post
       parameters:
       - in: path
         name: policy_id
@@ -734,7 +734,7 @@ paths:
         Alerts Synthetics Conditions &gt; Create for an explanation of the field values
         used in this command."
       operationId: putAlertsSyntheticsConditions.Format
-      x-api-path-slug: alerts-synthetics-conditionsidformat-put
+      x-api-path-slug: alerts-synthetics-conditionsid-format-put
       parameters:
       - in: path
         name: id
@@ -762,7 +762,7 @@ paths:
         with your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
         our documentation for a discussion on deleting Synthetic conditions."
       operationId: deleteAlertsSyntheticsConditionsCondition.Format
-      x-api-path-slug: alerts-synthetics-conditionscondition-idformat-delete
+      x-api-path-slug: alerts-synthetics-conditionscondition-id-format-delete
       parameters:
       - in: path
         name: condition_id
@@ -788,7 +788,7 @@ paths:
         See our documentation for a discussion on listing Synthetic conditions
         and  output pagination.
       operationId: getAlertsSyntheticsConditions.Format
-      x-api-path-slug: alerts-synthetics-conditionsformat-get
+      x-api-path-slug: alerts-synthetics-conditions-format-get
       parameters:
       - in: query
         name: page
@@ -813,7 +813,7 @@ paths:
         returns a list of the violations associated with your New Relic account.\n\nSee
         our documentation for a discussion on \noutput pagination."
       operationId: getAlertsViolations.Format
-      x-api-path-slug: alerts-violationsformat-get
+      x-api-path-slug: alerts-violations-format-get
       parameters:
       - in: query
         name: only_open
@@ -838,7 +838,7 @@ paths:
 
         See our documentation for a discussion on output pagination.
       operationId: getApplicationsApplicationDeployments.Format
-      x-api-path-slug: applicationsapplication-iddeploymentsformat-get
+      x-api-path-slug: applicationsapplication-iddeployments-format-get
       parameters:
       - in: path
         name: application_id
@@ -865,7 +865,7 @@ paths:
         Description \n\_\_- User posting the deployment\n\nNote that the time of your
         deployment will be recorded as the current time in UTC."
       operationId: postApplicationsApplicationDeployments.Format
-      x-api-path-slug: applicationsapplication-iddeploymentsformat-post
+      x-api-path-slug: applicationsapplication-iddeployments-format-post
       parameters:
       - in: path
         name: application_id
@@ -891,7 +891,7 @@ paths:
       description: "This API endpoint deletes the specified deployment record.\n\nNote:
         Admin User\u2019s API Key is required."
       operationId: deleteApplicationsApplicationDeployments.Format
-      x-api-path-slug: applicationsapplication-iddeploymentsidformat-delete
+      x-api-path-slug: applicationsapplication-iddeploymentsid-format-delete
       parameters:
       - in: path
         name: application_id
@@ -921,7 +921,7 @@ paths:
         application host IDs.\n\nSee our documentation for a discussion and examples
         of\nusing  filters \nand summary data output."
       operationId: getApplicationsApplicationHosts.Format
-      x-api-path-slug: applicationsapplication-idhostsformat-get
+      x-api-path-slug: applicationsapplication-idhosts-format-get
       parameters:
       - in: path
         name: application_id
@@ -957,7 +957,7 @@ paths:
         See our documentation for a discussion of
         summary data output.
       operationId: getApplicationsApplicationHosts.Format
-      x-api-path-slug: applicationsapplication-idhostsidformat-get
+      x-api-path-slug: applicationsapplication-idhostsid-format-get
       parameters:
       - in: path
         name: application_id
@@ -988,7 +988,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getApplicationsApplicationHostsHostMetrics.Format
-      x-api-path-slug: applicationsapplication-idhostshost-idmetricsformat-get
+      x-api-path-slug: applicationsapplication-idhostshost-idmetrics-format-get
       parameters:
       - in: path
         name: application_id
@@ -1034,7 +1034,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getApplicationsApplicationHostsHostMetricsData.Format
-      x-api-path-slug: applicationsapplication-idhostshost-idmetricsdataformat-get
+      x-api-path-slug: applicationsapplication-idhostshost-idmetricsdata-format-get
       parameters:
       - in: path
         name: application_id
@@ -1094,7 +1094,7 @@ paths:
         of application instance IDs.\n\nSee our documentation for a discussion and
         examples of\nusing  filters \nand summary data output."
       operationId: getApplicationsApplicationInstances.Format
-      x-api-path-slug: applicationsapplication-idinstancesformat-get
+      x-api-path-slug: applicationsapplication-idinstances-format-get
       parameters:
       - in: path
         name: application_id
@@ -1130,7 +1130,7 @@ paths:
         See our documentation for a discussion of
          summary data output.
       operationId: getApplicationsApplicationInstances.Format
-      x-api-path-slug: applicationsapplication-idinstancesidformat-get
+      x-api-path-slug: applicationsapplication-idinstancesid-format-get
       parameters:
       - in: path
         name: application_id
@@ -1161,7 +1161,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getApplicationsApplicationInstancesInstanceMetrics.Format
-      x-api-path-slug: applicationsapplication-idinstancesinstance-idmetricsformat-get
+      x-api-path-slug: applicationsapplication-idinstancesinstance-idmetrics-format-get
       parameters:
       - in: path
         name: application_id
@@ -1207,7 +1207,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getApplicationsApplicationInstancesInstanceMetricsData.Format
-      x-api-path-slug: applicationsapplication-idinstancesinstance-idmetricsdataformat-get
+      x-api-path-slug: applicationsapplication-idinstancesinstance-idmetricsdata-format-get
       parameters:
       - in: path
         name: application_id
@@ -1268,7 +1268,7 @@ paths:
         agents.\n\nSee our documentation for a discussion and examples of\nusing  filters
         \nand summary data output."
       operationId: getApplications.Format
-      x-api-path-slug: applicationsformat-get
+      x-api-path-slug: applications-format-get
       parameters:
       - in: query
         name: filter[host]
@@ -1305,7 +1305,7 @@ paths:
         See our documentation for a discussion of the
          summary data output.
       operationId: getApplications.Format
-      x-api-path-slug: applicationsidformat-get
+      x-api-path-slug: applicationsid-format-get
       parameters:
       - in: path
         name: id
@@ -1331,7 +1331,7 @@ paths:
          updating
         an application.
       operationId: putApplications.Format
-      x-api-path-slug: applicationsidformat-put
+      x-api-path-slug: applicationsid-format-put
       parameters:
       - in: body
         name: application
@@ -1358,7 +1358,7 @@ paths:
         WARNING: Only applications that have stopped reporting can be deleted. This is an irreversible process
         which will delete all reported data for this application.
       operationId: deleteApplications.Format
-      x-api-path-slug: applicationsidformat-delete
+      x-api-path-slug: applicationsid-format-delete
       parameters:
       - in: path
         name: id
@@ -1382,7 +1382,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getApplicationsApplicationMetrics.Format
-      x-api-path-slug: applicationsapplication-idmetricsformat-get
+      x-api-path-slug: applicationsapplication-idmetrics-format-get
       parameters:
       - in: path
         name: application_id
@@ -1421,7 +1421,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getApplicationsApplicationMetricsData.Format
-      x-api-path-slug: applicationsapplication-idmetricsdataformat-get
+      x-api-path-slug: applicationsapplication-idmetricsdata-format-get
       parameters:
       - in: path
         name: application_id
@@ -1473,7 +1473,7 @@ paths:
 
         Browser Applications can be filtered by their name, or by the application IDs.
       operationId: getBrowserApplications.Format
-      x-api-path-slug: browser-applicationsformat-get
+      x-api-path-slug: browser-applications-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -1498,7 +1498,7 @@ paths:
       summary: Add Browser Applications. Format
       description: This API endpoint allows you to create a standalone Browser Application.
       operationId: postBrowserApplications.Format
-      x-api-path-slug: browser-applicationsformat-post
+      x-api-path-slug: browser-applications-format-post
       parameters:
       - in: body
         name: browser_application
@@ -1523,7 +1523,7 @@ paths:
         See our documentation for a discussion on  listing components
         and  output pagination.
       operationId: getComponents.Format
-      x-api-path-slug: componentsformat-get
+      x-api-path-slug: components-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -1555,7 +1555,7 @@ paths:
 
         See our documentation for a discussion on listing components by ID.
       operationId: getComponents.Format
-      x-api-path-slug: componentsidformat-get
+      x-api-path-slug: componentsid-format-get
       parameters:
       - in: path
         name: id
@@ -1579,7 +1579,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getComponentsComponentMetrics.Format
-      x-api-path-slug: componentscomponent-idmetricsformat-get
+      x-api-path-slug: componentscomponent-idmetrics-format-get
       parameters:
       - in: path
         name: component_id
@@ -1618,7 +1618,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getComponentsComponentMetricsData.Format
-      x-api-path-slug: componentscomponent-idmetricsdataformat-get
+      x-api-path-slug: componentscomponent-idmetricsdata-format-get
       parameters:
       - in: path
         name: component_id
@@ -1670,7 +1670,7 @@ paths:
         the last 10 minutes.\n\nKey transactions can be filtered by their name or
         list of IDs.\n\nSee our documentation for a discussion of \nsummary data output."
       operationId: getKeyTransactions.Format
-      x-api-path-slug: key-transactionsformat-get
+      x-api-path-slug: key-transactions-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -1698,7 +1698,7 @@ paths:
         ID. The time range for summary data is the last 10 minutes.\n\nSee our documentation
         for a discussion of \nsummary data output."
       operationId: getKeyTransactions.Format
-      x-api-path-slug: key-transactionsidformat-get
+      x-api-path-slug: key-transactionsid-format-get
       parameters:
       - in: path
         name: id
@@ -1719,7 +1719,7 @@ paths:
       description: This API endpoint returns a paginated list of the labels available
         for the account.
       operationId: getLabels.Format
-      x-api-path-slug: labelsformat-get
+      x-api-path-slug: labels-format-get
       parameters:
       - in: query
         name: page
@@ -1739,7 +1739,7 @@ paths:
         or \u201Cservers\u201D arrays, if not needed.\n\nSee our documentation for
         a discussion on obtaining \napplication \nand \nserver IDs."
       operationId: putLabels.Format
-      x-api-path-slug: labelsformat-put
+      x-api-path-slug: labels-format-put
       parameters:
       - in: body
         name: label
@@ -1760,7 +1760,7 @@ paths:
 
         When no applications are provided, this endpoint will remove the label.
       operationId: deleteLabelsKey.Format
-      x-api-path-slug: labelskeyformat-delete
+      x-api-path-slug: labelskey-format-delete
       parameters:
       - in: path
         name: key
@@ -1782,7 +1782,7 @@ paths:
 
         MobileApplications can be filtered by their name, or by the application IDs.
       operationId: getMobileApplications.Format
-      x-api-path-slug: mobile-applicationsformat-get
+      x-api-path-slug: mobile-applications-format-get
       responses:
         200:
           description: OK
@@ -1796,7 +1796,7 @@ paths:
       description: This API endpoint returns a single Mobile Application, identified
         by ID. The time range for summary data is the last 30 minutes.
       operationId: getMobileApplications.Format
-      x-api-path-slug: mobile-applicationsidformat-get
+      x-api-path-slug: mobile-applicationsid-format-get
       parameters:
       - in: path
         name: id
@@ -1821,7 +1821,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getMobileApplicationsMobileApplicationMetrics.Format
-      x-api-path-slug: mobile-applicationsmobile-application-idmetricsformat-get
+      x-api-path-slug: mobile-applicationsmobile-application-idmetrics-format-get
       parameters:
       - in: query
         name: cursor
@@ -1862,7 +1862,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getMobileApplicationsMobileApplicationMetricsData.Format
-      x-api-path-slug: mobile-applicationsmobile-application-idmetricsdataformat-get
+      x-api-path-slug: mobile-applicationsmobile-application-idmetricsdata-format-get
       parameters:
       - in: query
         name: from
@@ -1916,7 +1916,7 @@ paths:
         with your New Relic account.\n\nNotification channels can be filtered by their
         type or a list of IDs."
       operationId: getNotificationChannels.Format
-      x-api-path-slug: notification-channelsformat-get
+      x-api-path-slug: notification-channels-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -1943,7 +1943,7 @@ paths:
       description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
         API endpoint returns a single notification channel, identified by ID.\u201D"
       operationId: getNotificationChannels.Format
-      x-api-path-slug: notification-channelsidformat-get
+      x-api-path-slug: notification-channelsid-format-get
       parameters:
       - in: path
         name: id
@@ -1965,7 +1965,7 @@ paths:
         your New Relic account.\n\nPlugins can be filtered by their guid or the list
         of plugin IDs.\n\nSee our documentation for a discussion on \noutput pagination."
       operationId: getPlugins.Format
-      x-api-path-slug: pluginsformat-get
+      x-api-path-slug: plugins-format-get
       parameters:
       - in: query
         name: detailed
@@ -1994,7 +1994,7 @@ paths:
       summary: Get Plugins  . Format
       description: This API endpoint returns a single plugin, identified by its ID.
       operationId: getPlugins.Format
-      x-api-path-slug: pluginsidformat-get
+      x-api-path-slug: pluginsid-format-get
       parameters:
       - in: query
         name: detailed
@@ -2025,7 +2025,7 @@ paths:
         using filters
         and summary data output.
       operationId: getServers.Format
-      x-api-path-slug: serversformat-get
+      x-api-path-slug: servers-format-get
       parameters:
       - in: query
         name: filter[host]
@@ -2064,7 +2064,7 @@ paths:
         time range for summary data is the last 10 minutes.\u201D\n\nSee our documentation
         for a discussion on\nsummary data output."
       operationId: getServers.Format
-      x-api-path-slug: serversidformat-get
+      x-api-path-slug: serversid-format-get
       parameters:
       - in: path
         name: id
@@ -2086,7 +2086,7 @@ paths:
         The input is expected to be in JSON or XML format in the body parameter of the PUT request. The exact
         schema is defined below. Any extra parameters passed in the body will be ignored.
       operationId: putServers.Format
-      x-api-path-slug: serversidformat-put
+      x-api-path-slug: serversid-format-put
       parameters:
       - in: path
         name: id
@@ -2113,7 +2113,7 @@ paths:
         WARNING: Only servers that have stopped reporting can be deleted. This is an irreversible process which
         will delete all reported data for this server.
       operationId: deleteServers.Format
-      x-api-path-slug: serversidformat-delete
+      x-api-path-slug: serversid-format-delete
       parameters:
       - in: path
         name: id
@@ -2137,7 +2137,7 @@ paths:
         on  output pagination
         and for examples of requesting and using metric values.
       operationId: getServersServerMetrics.Format
-      x-api-path-slug: serversserver-idmetricsformat-get
+      x-api-path-slug: serversserver-idmetrics-format-get
       parameters:
       - in: query
         name: cursor
@@ -2176,7 +2176,7 @@ paths:
         our documentation for a discussion on \noutput pagination,  time range \nrelated
         considerations, and for examples of requesting and using metric values."
       operationId: getServersServerMetricsData.Format
-      x-api-path-slug: serversserver-idmetricsdataformat-get
+      x-api-path-slug: serversserver-idmetricsdata-format-get
       parameters:
       - in: query
         name: from
@@ -2228,7 +2228,7 @@ paths:
 
         NOTE: Currently you must request 1 month of data, or less, to retrieve daily usage. Requests for greater than 1 month will currently return only monthly usage.
       operationId: getUsagesProduct.Format
-      x-api-path-slug: usagesproductformat-get
+      x-api-path-slug: usagesproduct-format-get
       parameters:
       - in: query
         name: end_date
@@ -2262,7 +2262,7 @@ paths:
 
         Uers can be filtered by their ids or email.
       operationId: getUsers.Format
-      x-api-path-slug: usersformat-get
+      x-api-path-slug: users-format-get
       parameters:
       - in: query
         name: filter[email]
@@ -2286,7 +2286,7 @@ paths:
       summary: Get Users  . Format
       description: This API endpoint returns a single user, identified by ID.
       operationId: getUsers.Format
-      x-api-path-slug: usersidformat-get
+      x-api-path-slug: usersid-format-get
       parameters:
       - in: path
         name: id
@@ -2305,7 +2305,7 @@ paths:
       summary: Add Users  Reset Password. Format
       description: This API endpoints reset the user password, identified by ID
       operationId: postUsersResetPassword.Format
-      x-api-path-slug: usersidreset-passwordformat-post
+      x-api-path-slug: usersidreset-password-format-post
       parameters:
       - in: path
         name: id
