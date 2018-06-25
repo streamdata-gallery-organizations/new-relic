@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-
 x-kinRank: "8"
 x-alexaRank: "10322"
 tags: New Relic
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/new-relic/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
 apis:
