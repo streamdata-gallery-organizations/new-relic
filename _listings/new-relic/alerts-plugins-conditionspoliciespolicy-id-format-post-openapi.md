@@ -5,19 +5,42 @@ x-complete: 0
 info:
   title: New Relic Add Alerts Plugins Conditions Policies Policy  . Format
   version: 1.0.0
-  description: "This API endpoint allows you to create Plugins conditions for your
-    alert policies.\n\nNote: Admin User\u2019s API Key is required.\n\nSee our documentation
-    for a discussion on creating conditions for plugins.\n\nAll fields are required
-    except for \u201Crunbook_url\u201D, \u201Cenabled\u201D (defaults to false).\n\nname:
-    A title for your condition.\n\nenabled: The status of your condition (optional).\n\nentities:
-    An array of instance IDs associated with your condition.\n\nmetric_description:
-    A title for the metric to display in notifications.\n\nmetric: The metric to evaluate
-    on.\n\nvalue_function: min, max, average, sample_size, total, percent\n\nrunbook_url:
-    Runbook URL to display in notifications (optional).\n\nterms[duration] (in minutes):
-    5, 10, 15, 30, 60, 120.\n\nterms[operator]: above, below, equal.\n\nterms[priority]:
-    critical, warning.\n\nterms[threshold]: Must be 0 or greater.\n\nterms[time_function]:
-    all, any.\n\nplugin[id]: The ID of the plugin.\n\nplugin[guid]: The GUID of the
-    plugin."
+  description: |-
+    This API endpoint allows you to create Plugins conditions for your alert policies.
+
+    Note: Admin User???s API Key is required.
+
+    See our documentation for a discussion on creating conditions for plugins.
+
+    All fields are required except for ???runbook_url???, ???enabled??? (defaults to false).
+
+    name: A title for your condition.
+
+    enabled: The status of your condition (optional).
+
+    entities: An array of instance IDs associated with your condition.
+
+    metric_description: A title for the metric to display in notifications.
+
+    metric: The metric to evaluate on.
+
+    value_function: min, max, average, sample_size, total, percent
+
+    runbook_url: Runbook URL to display in notifications (optional).
+
+    terms[duration] (in minutes): 5, 10, 15, 30, 60, 120.
+
+    terms[operator]: above, below, equal.
+
+    terms[priority]: critical, warning.
+
+    terms[threshold]: Must be 0 or greater.
+
+    terms[time_function]: all, any.
+
+    plugin[id]: The ID of the plugin.
+
+    plugin[guid]: The GUID of the plugin.
 basePath: v2/
 schemes:
 - http
@@ -29,20 +52,42 @@ paths:
   /alerts_plugins_conditions/policies/{policy_id}.{format}:
     post:
       summary: Add Alerts Plugins Conditions Policies Policy  . Format
-      description: "This API endpoint allows you to create Plugins conditions for
-        your alert policies.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
-        our documentation for a discussion on creating conditions for plugins.\n\nAll
-        fields are required except for \u201Crunbook_url\u201D, \u201Cenabled\u201D
-        (defaults to false).\n\nname: A title for your condition.\n\nenabled: The
-        status of your condition (optional).\n\nentities: An array of instance IDs
-        associated with your condition.\n\nmetric_description: A title for the metric
-        to display in notifications.\n\nmetric: The metric to evaluate on.\n\nvalue_function:
-        min, max, average, sample_size, total, percent\n\nrunbook_url: Runbook URL
-        to display in notifications (optional).\n\nterms[duration] (in minutes): 5,
-        10, 15, 30, 60, 120.\n\nterms[operator]: above, below, equal.\n\nterms[priority]:
-        critical, warning.\n\nterms[threshold]: Must be 0 or greater.\n\nterms[time_function]:
-        all, any.\n\nplugin[id]: The ID of the plugin.\n\nplugin[guid]: The GUID of
-        the plugin."
+      description: |-
+        This API endpoint allows you to create Plugins conditions for your alert policies.
+
+        Note: Admin User???s API Key is required.
+
+        See our documentation for a discussion on creating conditions for plugins.
+
+        All fields are required except for ???runbook_url???, ???enabled??? (defaults to false).
+
+        name: A title for your condition.
+
+        enabled: The status of your condition (optional).
+
+        entities: An array of instance IDs associated with your condition.
+
+        metric_description: A title for the metric to display in notifications.
+
+        metric: The metric to evaluate on.
+
+        value_function: min, max, average, sample_size, total, percent
+
+        runbook_url: Runbook URL to display in notifications (optional).
+
+        terms[duration] (in minutes): 5, 10, 15, 30, 60, 120.
+
+        terms[operator]: above, below, equal.
+
+        terms[priority]: critical, warning.
+
+        terms[threshold]: Must be 0 or greater.
+
+        terms[time_function]: all, any.
+
+        plugin[id]: The ID of the plugin.
+
+        plugin[guid]: The GUID of the plugin.
       operationId: postAlertsPluginsConditionsPoliciesPolicy.Format
       x-api-path-slug: alerts-plugins-conditionspoliciespolicy-id-format-post
       parameters:

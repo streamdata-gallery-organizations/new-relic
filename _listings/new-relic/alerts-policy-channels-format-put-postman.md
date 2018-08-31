@@ -2,7 +2,7 @@
   "info": {
     "name": "New Relic Put Alerts Policy Channels. Format",
     "_postman_id": "fd137285-45df-4971-b88f-9e29970f3bc3",
-    "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User’s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies.",
+    "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User???s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -18,7 +18,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User’s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies."
+            "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User???s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies."
           },
           "response": [
             {

@@ -18,7 +18,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User’s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies."
+            "description": "This API endpoint updates policy/channel associations.\n\nNote: Admin User???s API Key is required.\n\nSee our documentation for a discussion on updating notification channels with policies."
           },
           "response": [
             {
@@ -38,7 +38,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "This API endpoint deletes Alerts policy/channel associations.\n\nNote: Admin User’s API Key is required.\n\nSee our documentation for a discussion on deleting notification channels with policies."
+            "description": "This API endpoint deletes Alerts policy/channel associations.\n\nNote: Admin User???s API Key is required.\n\nSee our documentation for a discussion on deleting notification channels with policies."
           },
           "response": [
             {
